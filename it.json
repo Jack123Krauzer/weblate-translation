@@ -1,0 +1,668 @@
+{
+  "Common": {
+    "Today": "Today",
+    "New": "New",
+    "NewObject": "New {{object}}",
+    "All": "All",
+    "Search": "Search...",
+    "SearchSpace": "Search space...",
+    "public": "Public",
+    "private": "Private",
+    "staffOnly": "Staff only",
+    "district": "District",
+    "NoRecordsFound": "No records found",
+    "NoData": "No data",
+    "Day": "day",
+    "Day_plural": "days",
+    "DayWithCount": "{{count}} day",
+    "DayWithCount_plural": "{{count}} days",
+    "ToolsAvailable": "Available tools",
+    "Hide": "Hide",
+    "ShowMore": "Show More",
+    "NoResidents": "There is not residents associated to this apartment",
+    "CoolingEnergy": "Cooling Energy",
+    "HotWater": "Hot Water",
+    "ColdWater": "Cold Water",
+    "HeatingEnergy": "Heating Energy",
+    "ElectricEnergy": "Electric Energy",
+    "Unauthorized": "You do not have access to this section.",
+    "Status": {
+      "Published": "Published",
+      "Draft": "Draft"
+    },
+    "Object": {
+      "Tool": "Tool",
+      "Reservation": "Reservation",
+      "Place": "Place",
+      "Activity": "Activity",
+      "Tool_plural": "Tools",
+      "Reservation_plural": "Reservations",
+      "Place_plural": "Places",
+      "Activity_plural": "Activities",
+      "User": "User",
+      "User_plural": "Users",
+      "Apartment": "Apartment",
+      "Apartment_plural": "Apartments",
+      "Promotion": "Promo"
+    },
+    "MoreNumber": "{{count}} MORE",
+    "MoreNumber_plural": "{{count}} MORE"
+  },
+  "Language": {
+    "en": "english",
+    "it": "italian",
+    "pt": "portuguese"
+  },
+  "Redirect": {
+    "Message": "Redirecting, a moment please..."
+  },
+  "Buttons": {
+    "New": "New {{object}}",
+    "Create": "Create",
+    "Export": "Export",
+    "Download": "Download",
+    "Ok": "Ok",
+    "Close": "Close",
+    "Save": "Save",
+    "SaveDraft": "Save as Draft",
+    "SavePublish": "Save and Publish",
+    "Publish": "Publish",
+    "Approved": "Approved",
+    "Approve": "Approve",
+    "PutOnHold": "Put on hold",
+    "Block": "Block",
+    "Waiting": "Waiting",
+    "Rejected": "Rejected",
+    "Cancel": "Cancel",
+    "Reset": "Reset",
+    "Delete": "Delete",
+    "Continue": "Continue",
+    "Discard": "Discard",
+    "Send": "Send",
+    "Excel": "Excel",
+    "HistoricalReservations": "Historical Reservations",
+    "Back": "Back",
+    "Apply": "Apply",
+    "UpdateCode": "Update code",
+    "UpdatePage": "Update page",
+    "RepeatRequest": "Repeat request",
+    "ManualConfirmation": "Manual confirmation",
+    "ExitConfirmation": "Exit confirmation",
+    "SendRequest": "Send request",
+    "YesAndSend": "Yes, send",
+    "NotNow": "Not now",
+    "Edit": {
+      "Edit": "Edit",
+      "news": "Edit News",
+      "activities": "Edit Activity"
+    },
+    "Activity": {
+      "DeleteOne": "Delete only this activity",
+      "DeleteAll": "Delete all the activities",
+      "SaveOne": "Apply in this",
+      "SaveAll": "Apply in all"
+    },
+    "Tool": {
+      "Add": "Add Tool"
+    },
+    "Place": {
+      "Draft": "Save draft",
+      "Publish": "Publish"
+    },
+    "Information": {
+      "UpdateSteps": "Update to check the steps"
+    }
+  },
+  "Activity": {
+    "TitleNavbar": "Activities",
+    "AddActivities": "New Activity",
+    "EditActivities": "Edit Activities",
+    "Views": {
+      "List": "List",
+      "Calendar": "Calendar"
+    },
+    "Space": {
+      "none": "No space",
+      "select_space": "select space",
+      "custom_space": "personalized space",
+      "no_spaces": "There are no available spaces to show",
+      "existent": "Existent space"
+    },
+    "Status": {
+      "approved": "Approved",
+      "rejected": "Rejected",
+      "waiting": "Wait for Approval"
+    },
+    "MaxPeople": "Max. {{number}} people",
+    "Link": "Activity Details"
+  },
+  "News": {
+    "EditNews": "Edit News",
+    "TitleNavbar": "News",
+    "Detail": {
+      "LabelProject": "Project"
+    }
+  },
+  "Promotion": {
+    "TitleNavbar": "Promo"
+  },
+  "Reservation": {
+    "TitleNavbar": "Reservations",
+    "TimeReturn": "The tool was returned {{context}}.",
+    "ReturnOnTime": "on time",
+    "ReturnLate": "$t(Common.DayWithCount, {'count': {{days}} }) late",
+    "ReturnAdvance": "$t(Common.DayWithCount, {'count': {{days}} }) in advance"
+  },
+  "Tool": {
+    "TitleNavbar": "Tools",
+    "Status": {
+      "good": "Good",
+      "worn": "Worn",
+      "bad": "Bad"
+    }
+  },
+  "Place": {
+    "TitleNavbar": "Places",
+    "NoTools": "This place has no available tools"
+  },
+  "Districts": {
+    "Configuration": {
+      "TitleNavbar": "District Configuration",
+      "Groups": {
+        "community_contents": "Community Contents",
+        "district_contents": "District Contents",
+        "sensors": "Sensors",
+        "relations": "Relations"
+      },
+      "Types": {
+        "event": "Events",
+        "news": "News",
+        "commercial_info": "Commercial Info",
+        "group": "Group",
+        "district_detail": "District Detail",
+        "live_camera": "Live Camera",
+        "carousel_image": "Carousel Image",
+        "data": "Data",
+        "control": "Control",
+        "place": "Spaces",
+        "planet_info": "Planet Info",
+        "equipments": "Tools",
+        "member": "Member",
+        "apartment": "Apartment by code",
+        "apartment_by_manager": "Apartment by manager",
+        "gate": "Gate",
+        "fees": "Fees"
+      }
+    }
+  },
+  "Apartments": {
+    "Charts": {
+      "Average": "Average\nneighbours",
+      "Selected": "Selected\napartment",
+      "Direct": "Direct",
+      "DirectPast": "Direct past",
+      "DirectConsumption": "Direct consumption",
+      "PercentageComparison": "Percentage comparison"
+    },
+    "TitleNavbar": "Apartments",
+    "Consumption": "Consumption {{code}}",
+    "DetailApartment": "Detail apartment - {{code}}",
+    "ApartmentDetails": "Apartment details",
+    "AssociatedUsers": "Associated users",
+    "GraphicConsumption": "Graphic consumption",
+    "DistrictComparison": "District comparison"
+  },
+  "Gate": {
+    "TitleNavbar": "Gate",
+    "InvitationDetails": "Invitation details - {{code}}",
+    "InvitationStatus": "Invitation status - {{name}}",
+    "GuestType": {
+      "guest": "Guest",
+      "taxi": "Cab",
+      "home_service": "Home services",
+      "delivery": "Delivery"
+    },
+    "Guests": {
+      "Title": "Guests",
+      "Status": "Invitation status",
+      "Details": "Details",
+      "Number": "{{count}} guest",
+      "Number_plural": "{{count}} guests"
+    },
+    "VisitorStatus": {
+      "Title": "Status",
+      "create": "Invitation created",
+      "create_description": "Wait for guests to arrive.",
+      "request": "Confirm request",
+      "request_description": "Check the invitation carefully.\nAsk the home owner for confirmation.",
+      "wait": "Waiting confirmation",
+      "wait_description": "Wait for confirmation from the resident.\nConfirm manually in case of telephone confirmation.",
+      "complete": "Request confirmed",
+      "complete_description": "The request has been confirmed.",
+      "exit": "Confirm exit",
+      "exit_description": "Confirm manually the exit of the visitor."
+    }
+  },
+  "Users": {
+    "TitleNavbar": "Users",
+    "Roles": "Districts and Roles assignment for {{username}}",
+    "Status": {
+      "approved": "Approved",
+      "hold": "On hold",
+      "block": "Blocked"
+    },
+    "Districts": {
+      "TitleNavbar": "User districts associations",
+      "Title": "Linked Districts"
+    }
+  },
+  "Table": {
+    "Headers": {
+      "title": "Title",
+      "author": "Author",
+      "visibility": "Visibility",
+      "start": "Start",
+      "StartDate": "Start date",
+      "activity_date": "Activity Date",
+      "end": "End",
+      "EndDate": "End date",
+      "status": "Status",
+      "CreatedAt": "Created at",
+      "PublishedAt": "Published at",
+      "actions": "Actions",
+      "Image": "Image",
+      "Name": "Name",
+      "Brand": "Brand",
+      "Space": "Space",
+      "Status": "Status",
+      "Actions": "Actions",
+      "Person": "Person",
+      "When": "When",
+      "Deadline": "Deadline",
+      "Cover": "Cover",
+      "Address": "Address",
+      "Price": "Price",
+      "Cost": "Cost",
+      "User": "User",
+      "Email": "Email",
+      "MemberSince": "Member Since",
+      "Code": "Code",
+      "Size": "Size",
+      "ResidentsNumber": "N° Residents",
+      "ResidentsName": "Associated users",
+      "OTP": "OTP",
+      "Date": "Date",
+      "Guests": "Guests",
+      "GuestType": "Guest type",
+      "PlaceVisit": "Place of visit"
+    },
+    "Filter": {
+      "all": "All",
+      "waiting": "Waiting",
+      "rejected": "Rejected",
+      "confirmed": "Approved",
+      "published": "Published",
+      "draft": "Draft",
+      "history": "History",
+      "incoming": "Incoming",
+      "signup_requests": "Signup requests",
+      "approved": "Approved",
+      "blocked": "Blocked",
+      "Activities": {
+        "all": "All",
+        "waiting": "To check",
+        "to_pay": "To pay",
+        "confirmed": "Online",
+        "rejected": "Rejected",
+        "history": "History"
+      }
+    },
+    "FilterSelectTitle": {
+      "Filter_category": "Filter category",
+      "Filter_calendar": "Filter"
+    }
+  },
+  "Date": {
+    "Days": {
+      "sunday": "Sunday",
+      "monday": "Monday",
+      "tuesday": "Tuesday",
+      "wednesday": "Wednesday",
+      "thursday": "Thursday",
+      "friday": "Friday",
+      "saturday": "Saturday"
+    },
+    "Months": {
+      "january": "January",
+      "february": "February",
+      "march": "March",
+      "april": "April",
+      "may": "May",
+      "june": "June",
+      "july": "July",
+      "august": "August",
+      "september": "September",
+      "october": "October",
+      "november": "November",
+      "december": "December"
+    }
+  },
+  "Input": {
+    "Label": {
+      "Title": "Title",
+      "Subtitle": "Subtitle",
+      "Label": "Label",
+      "Description": "Description",
+      "ActivitySpace": "locate your activity",
+      "Language": "Switch language",
+      "Name": "Name",
+      "Address": "Address",
+      "CreatedBy": "Created By",
+      "PublishedBy": "Published by",
+      "PublishedAt": "Published, {{date}}",
+      "Message": "Message",
+      "NewActivity": "Insert the label for the new activity",
+      "NewActivityDescription": "Write here the activity description",
+      "NumberPeople": "Number of partecipants",
+      "ExternalLink": "External link",
+      "SendMessage": "Send a message to the person who creates the {{object}}...",
+      "Brand": "Brand",
+      "Model": "Model",
+      "SerialNumber": "Serial Number",
+      "Notes": "Notes",
+      "Status": "Status",
+      "SelectToolStatus": "Select the condition of the equipment after returning",
+      "PlaceName": "Place name",
+      "Email": "Email",
+      "Phone": "Phone",
+      "Website": "Website",
+      "OpenAt": "Open At (HH:MM)",
+      "CloseAt": "Close At (HH:MM)",
+      "MaxOccupancy": "Max. Occupancy",
+      "Price": "Price",
+      "Cost": "Cost",
+      "IsPhysicalPlace": "Is a physical place",
+      "Capacity": "Capacity",
+      "IsHistoricalActivity": "This is a historical activity",
+      "IsSpecialActivity": "This is a special activity",
+      "PlaceBookable": "This place is bookable",
+      "MaxBookingTime": "Max. booking time",
+      "DeliveredByUser": "Delivered by user",
+      "Password": "Password",
+      "PasswordRepeat": "Repeat the password",
+      "FirstName": "First Name",
+      "MiddleName": "Middle Name",
+      "LastName": "Last Name",
+      "Mobile": "Mobile",
+      "TaxCode": "Tax Code",
+      "VatCode": "Vat Code",
+      "ChangePassword": "Change the password for this user",
+      "ApartmentCode": "Apartment code",
+      "Internal": "Internal",
+      "Floor": "Floor",
+      "Size": "Size",
+      "ResidentNumber": "Number of residents",
+      "ContractCode": "Contract code",
+      "OTP": "OTP",
+      "EntraceDate": "Entrace date",
+      "EntraceHour": "Entrace hour",
+      "GuestType": "Guest type",
+      "PlaceVisit": "Place to visit",
+      "Motivation": "Motivation"
+    },
+    "Placeholder": {
+      "ToolName": "Insert the name of the tool",
+      "ToolDescription": "Insert the Description of the tool",
+      "ToolNotes": "Insert some Notes of the tool",
+      "PlaceName": "Insert the name of the place",
+      "PlaceDescription": "Insert the description of the place",
+      "SearchPlace": "Seach place...",
+      "SearchName": "Seach name...",
+      "SearchUserName": "Search user name ...",
+      "PromotionDescription": "Write a description here...",
+      "PromotionExternalLink": "Insert an external link...",
+      "PromotionContent": "Insert the description of the promo..."
+    }
+  },
+  "Select": {
+    "Title": {
+      "Day": "Day",
+      "Repeat": "Repeat",
+      "StartsAt": "Starts At",
+      "EndsRepetition": "Ends Repetition",
+      "EndsAt": "Ends At",
+      "District": "District",
+      "Visibility": "Visibility",
+      "tagSearch": "Tags",
+      "Status": "Status",
+      "WhereIsIt": "Where is it",
+      "Place": "Where will be",
+      "SelectTool": "Select Tool",
+      "SelectPerson": "Select Person",
+      "StartDate": "Start Date",
+      "EndDate": "End Date",
+      "EndPublication": "End of publication",
+      "ExportType": "Export type",
+      "BirthDate": "Birth Date"
+    },
+    "Values": {
+      "none": "None",
+      "noDataAvailable": "No Data Available",
+      "daily": "Daily",
+      "weekly": "Weekly",
+      "monthly": "Monthly",
+      "annual": "Annual",
+      "day": "Day",
+      "month": "Month",
+      "year": "Year",
+      "days": "Days",
+      "weeks": "Weeks",
+      "months": "Months",
+      "all": "All",
+      "waiting": "Waiting",
+      "rejected": "Rejected",
+      "confirmed": "Approved",
+      "public": "Public",
+      "private": "Private",
+      "staffOnly": "Staff only",
+      "district": "District",
+      "good": "Good",
+      "worn": "Worn",
+      "bad": "Bad",
+      "ToCheck": "To check",
+      "ToPay": "To pay",
+      "Online": "Online",
+      "Rejected": "Rejected"
+    }
+  },
+  "Image": {
+    "Title": {
+      "CoverImage": "Cover Image"
+    },
+    "Placeholder": {
+      "DragDropClick": "Drag and drop your image here or click to select a file.",
+      "MaxSize": "Max size: 10Mbs.",
+      "Formats": "Formats: JPG, JPEG, PNG."
+    }
+  },
+  "String": {
+    "Error": {
+      "Image": "The selected file is not a valid image file"
+    },
+    "EntryHour": "Entry hour",
+    "ExitHour": "Exit hour"
+  },
+  "Dialog": {
+    "Title": {
+      "Notice": "Notice",
+      "Delete": "Delete",
+      "Cancel": "Cancel",
+      "Create": "Create",
+      "NewObject": "New {{object}}",
+      "CreateObject": "Create {{object}}",
+      "SaveObject": "Save {{object}}",
+      "PublishObject": "Publish {{object}}",
+      "ShowObject": "Show {{object}}",
+      "EditObject": "Edit {{object}}",
+      "ModifyObject": "Modify {{object}}",
+      "DeleteObject": "Delete {{object}}",
+      "Save": "Save",
+      "Edit": "Edit",
+      "Debug": "Debug Message",
+      "Return": "Confirms the return of the object",
+      "GenerateXls": "Export {{object}}",
+      "Publish": "Publish",
+      "Draft": "Draft",
+      "Message": "Message",
+      "UserDetails": "User details",
+      "SendRequest": "Send request",
+      "ManualConfirm": "Manual confirmation",
+      "ResendRequest": "Repeat request",
+      "ExitRequest": "Exit request"
+    },
+    "Message": {
+      "SendingMessage": "Please wait a moment, your message is being sent",
+      "SuccessSendingMessage": "Your message has been sent successfully",
+      "ErrorSendingMessage": "An error occurred when your message was being sent",
+      "NoMessage": "No message to show",
+      "ProcessingRequest": "Please wait a moment, your request is being processed",
+      "ErrorProcessingRequest": "An error occurred when your request was being processed",
+      "GeneratingXls": "Please wait a moment, the requested Excel file is being generated",
+      "SuccessGenerateXls": "The requested Excel file was being generated successfully",
+      "ErrorGenerateXls": "An error occurred when the requested Excel file was being generated",
+      "Activity": {
+        "SaveRepeatableParentActivity": "This is a repeatable activity. Updating this activity will also update all repetitions. Are you sure you want to proceed?",
+        "SaveRepeatableActivity": "This activity is the repetition of another activity. You can update only this repetition or update all activity and repetitions. What do you want to do?",
+        "CancelActivityCreation": "The information not saved will be lost. Are you sure you want to cancel the creation of the activity?",
+        "CancelActivityEdition": "The information not saved will be lost. Are you sure you want to cancel the edition of the activity?",
+        "SavingActivity": "Wait a moment, the activity is being saved.",
+        "SuccessSaveActivity": "The activity has been saved successfully.",
+        "ErrorSaveActivity": "An error occurred while saving the activity, try again.",
+        "DeleteActivity": "Are you sure you want to eliminate this activity? This action can not be undone.",
+        "DeletingActivity": "Wait a moment, the activity is being eliminated.",
+        "SuccessDeleteActivity": "The activity has been successfully eliminated.",
+        "ErrorDeleteActivity": "An error occurred when deleting the activity, try again.",
+        "DeleteRepeatableParentActivity": "This is a repeatable activity. Eliminating this activity will also eliminate all repetitions. Are you sure you want to proceed?",
+        "DeleteRepeatableActivity": "This activity is the repetition of another activity. You can eliminate only this repetition or eliminate all activity and repetitions. What do you want to do?",
+        "EditRepeatableParent": "You are about to edit a repeatable activity. When saving changes, all related activities will be modified.",
+        "EditRepeatableChild": "You are about to edit the repetition of a repeatable activity. You can choose to apply the changes only to the selected repetition or to all repetitions.",
+        "SuccessSendMessage": "Your message has been sent correctly. Will be notified to the creator of the activity.",
+        "ErrorSendMessage": "Your message could not be sent. Try again please."
+      },
+      "Reservation": {
+        "SuccessReservationReturnTool": "The reservation has been concluded successfully"
+      },
+      "CancelObjectCreation": "The information not saved will be lost. Are you sure you want to cancel the creation of the {{object}}?",
+      "CancelObjectEdition": "The information not saved will be lost. Are you sure you want to cancel the edition of the {{object}}?",
+      "CreatingObject": "Wait a moment, the {{object}} is being saved.",
+      "SuccessCreateObject": "The {{object}} has been saved successfully.",
+      "ErrorCreateObject": "An error occurred while saving the {{object}}, try again.",
+      "SavingObject": "Wait a moment, the {{object}} is being saved.",
+      "SuccessSaveObject": "The {{object}} has been saved successfully.",
+      "ErrorSaveObject": "An error occurred while saving the {{object}}, try again.",
+      "PublishingObject": "Wait a moment, the {{object}} is being published.",
+      "SuccessPublishObject": "The {{object}} has been published successfully.",
+      "ErrorPublishObject": "An error occurred while publishing the {{object}}, try again.",
+      "DeleteObject": "Are you sure you want to eliminate this {{object}}? This action can not be undone.",
+      "DeletingObject": "Wait a moment, the {{object}} is being eliminated.",
+      "SuccessDeleteObject": "The {{object}} has been successfully eliminated.",
+      "ErrorDeleteObject": "An error occurred when deleting the {{object}}, try again.",
+      "LoadingUser": "Wait a moment while the user details are loaded",
+      "ErrorLoadingUser": "An error has occurred while loading the user details",
+      "ResendRequest": "Do you want to forward the notification of confirmation request to the house owner?",
+      "SendingRequest": "Wait a moment while a notification of confirmation request is being sent to the house owner.",
+      "RequestSent": "Notification sent successfully.",
+      "ErrorSendingRequest": "An error occurred while the notification was sent, try again.",
+      "ManualConfirm": "Continuing you confirm the access to the guest.",
+      "SuccessManualConfirm": "Your request was processed successfully.",
+      "SendingExitRequest": "Wait a moment while a notification of exit confirmation request is being sent.",
+      "ExitRequestSent": "Exit confirmation sent successfully.",
+      "ErrorSendingExitRequest": "An error occurred while the exit confirmation was sent, try again."
+    }
+  },
+  "Validations": {
+    "InvalidEmail": "The value is not a valid email address",
+    "NotRolesSelected": "You must select at least one role for this district",
+    "NotNull": "This field cannot be empty",
+    "LangNotNull": "This field cannot be empty in the {{language}} language",
+    "DateInvalid": "Invalid date format",
+    "DateStartNotPast": "You cannot choose a past date",
+    "ValidOption": "You must select a valid option",
+    "DateEndNotEqualPastStart": "The end date cannot be before to start date",
+    "TimeStartInferior": "You cannot select a past time",
+    "TimeInvalid": "Time invalid, must use the HH:MM format",
+    "TimeEndEqualInferiorStart": "The end time cannot be before to start time",
+    "InvalidURL": "Invalid URL format. Try to insert a HTTP:// or HTTPS:// before the address",
+    "NotInteger": "The value must be an integer number",
+    "NotZero": "The value cannot be 0",
+    "CustomSpaceNoName": "You must write a name for the custom space",
+    "CustomSpaceNoAddress": "You must write an address for the custom space",
+    "NoImage": "You must load an image",
+    "SelectAnOption": "You must select an option",
+    "HitEnterToComplete": "Hit enter to complete",
+    "TimeExceedPeriod": "The time exceeds the selected period",
+    "Image": {
+      "Format": "The selected file is not a valid image.",
+      "Size": "The selected file exceed accepted max size."
+    },
+    "PasswordTooShort": "The password is too short, must have {{number}} character(s)",
+    "PasswordsMustMatch": "The passwords does not match",
+    "InvalidPhone": "The phone number is not valid. Must have from 10 to 13 numbers and can start with a +"
+  },
+  "Messages": {
+    "Title": {
+      "ErrorLoading": "Error loading"
+    },
+    "Content": {
+      "Errors": {
+        "General": {
+          "ErrorLoading": "An unexpected error has made it impossible to load the indicated activity.",
+          "ErrorMailAuthor": "There's an error and your email cannot be send"
+        },
+        "Promotions": {
+          "ErrorLoadingPromotionList": "An error occurred while loading the promotions list"
+        },
+        "Activities": {
+          "ErrorLoadingActivitiesList": "An error occurred while loading the events list"
+        },
+        "Tools": {
+          "ErrorLoadingTool": "An error occurred while loading the tool",
+          "ErrorLoadingToolList": "An error occurred while loading the tools list",
+          "ErrorToolNotSet": "There is no selected tool"
+        },
+        "Reservations": {
+          "ErrorLoadingReservationList": "There was an error loading the reservations list"
+        },
+        "User": {
+          "ErrorLoadingUser": "An error occurred while loading the user",
+          "ErrorLoadingUserList": "An error occurred while loading the users list",
+          "ErrorUserNotSet": "There is no selected user"
+        },
+        "News": {
+          "ErrorLoadingNews": "An error occurred while loading the news",
+          "ErrorLoadingNewsList": "An error occurred while loading the news list",
+          "ErrorNewsNotSet": "There is no selected news"
+        },
+        "Apartment": {
+          "NotAvailableData": "There is not available data for the selected parameters",
+          "ErrorLoadingApartment": "An error occurred while loading the apartment",
+          "ErrorLoadingApartmentList": "An error occurred while loading the apartments list",
+          "ErrorApartmentNotSet": "There is no selected apartment"
+        },
+        "Gate": {
+          "ErrorLoadingInvitation": "An error occurred while loading the invitation data"
+        }
+      },
+      "WaitLoading": "Just a moment, the content of the activity is loading ...",
+      "SuccessMailAuthor": "Your email has been sent successfully",
+      "LoadingAMomentPlease": "Loading, just a moment please ..."
+    }
+  },
+  "Checkbox": {
+    "Values": {
+      "both": "Both",
+      "spaceList": "Space list",
+      "reservationSpace": "Space reservations"
+    }
+  }
+}
