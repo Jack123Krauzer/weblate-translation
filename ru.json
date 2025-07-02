@@ -1,0 +1,668 @@
+{
+    "Common": {
+        "Today": "",
+        "New": "",
+        "NewObject": "",
+        "All": "",
+        "Search": "",
+        "SearchSpace": "",
+        "public": "",
+        "private": "",
+        "staffOnly": "",
+        "district": "",
+        "NoRecordsFound": "",
+        "NoData": "",
+        "Day": "",
+        "Day_plural": "",
+        "DayWithCount": "",
+        "DayWithCount_plural": "",
+        "ToolsAvailable": "",
+        "Hide": "",
+        "ShowMore": "",
+        "NoResidents": "",
+        "CoolingEnergy": "",
+        "HotWater": "",
+        "ColdWater": "",
+        "HeatingEnergy": "",
+        "ElectricEnergy": "",
+        "Unauthorized": "",
+        "Status": {
+            "Published": "",
+            "Draft": ""
+        },
+        "Object": {
+            "Tool": "",
+            "Reservation": "",
+            "Place": "",
+            "Activity": "",
+            "Tool_plural": "",
+            "Reservation_plural": "",
+            "Place_plural": "",
+            "Activity_plural": "",
+            "User": "",
+            "User_plural": "",
+            "Apartment": "",
+            "Apartment_plural": "",
+            "Promotion": ""
+        },
+        "MoreNumber": "",
+        "MoreNumber_plural": ""
+    },
+    "Language": {
+        "en": "",
+        "it": "",
+        "pt": ""
+    },
+    "Redirect": {
+        "Message": ""
+    },
+    "Buttons": {
+        "New": "",
+        "Create": "",
+        "Export": "",
+        "Download": "",
+        "Ok": "",
+        "Close": "",
+        "Save": "",
+        "SaveDraft": "",
+        "SavePublish": "",
+        "Publish": "",
+        "Approved": "",
+        "Approve": "",
+        "PutOnHold": "",
+        "Block": "",
+        "Waiting": "",
+        "Rejected": "",
+        "Cancel": "",
+        "Reset": "",
+        "Delete": "",
+        "Continue": "",
+        "Discard": "",
+        "Send": "",
+        "Excel": "",
+        "HistoricalReservations": "",
+        "Back": "",
+        "Apply": "",
+        "UpdateCode": "",
+        "UpdatePage": "",
+        "RepeatRequest": "",
+        "ManualConfirmation": "",
+        "ExitConfirmation": "",
+        "SendRequest": "",
+        "YesAndSend": "",
+        "NotNow": "",
+        "Edit": {
+            "Edit": "",
+            "news": "",
+            "activities": ""
+        },
+        "Activity": {
+            "DeleteOne": "",
+            "DeleteAll": "",
+            "SaveOne": "",
+            "SaveAll": ""
+        },
+        "Tool": {
+            "Add": ""
+        },
+        "Place": {
+            "Draft": "",
+            "Publish": ""
+        },
+        "Information": {
+            "UpdateSteps": ""
+        }
+    },
+    "Activity": {
+        "TitleNavbar": "",
+        "AddActivities": "",
+        "EditActivities": "",
+        "Views": {
+            "List": "",
+            "Calendar": ""
+        },
+        "Space": {
+            "none": "",
+            "select_space": "",
+            "custom_space": "",
+            "no_spaces": "",
+            "existent": ""
+        },
+        "Status": {
+            "approved": "",
+            "rejected": "",
+            "waiting": ""
+        },
+        "MaxPeople": "",
+        "Link": ""
+    },
+    "News": {
+        "EditNews": "",
+        "TitleNavbar": "",
+        "Detail": {
+            "LabelProject": ""
+        }
+    },
+    "Promotion": {
+        "TitleNavbar": ""
+    },
+    "Reservation": {
+        "TitleNavbar": "",
+        "TimeReturn": "",
+        "ReturnOnTime": "",
+        "ReturnLate": "",
+        "ReturnAdvance": ""
+    },
+    "Tool": {
+        "TitleNavbar": "",
+        "Status": {
+            "good": "",
+            "worn": "",
+            "bad": ""
+        }
+    },
+    "Place": {
+        "TitleNavbar": "",
+        "NoTools": ""
+    },
+    "Districts": {
+        "Configuration": {
+            "TitleNavbar": "",
+            "Groups": {
+                "community_contents": "",
+                "district_contents": "",
+                "sensors": "",
+                "relations": ""
+            },
+            "Types": {
+                "event": "",
+                "news": "",
+                "commercial_info": "",
+                "group": "",
+                "district_detail": "",
+                "live_camera": "",
+                "carousel_image": "",
+                "data": "",
+                "control": "",
+                "place": "",
+                "planet_info": "",
+                "equipments": "",
+                "member": "",
+                "apartment": "",
+                "apartment_by_manager": "",
+                "gate": "",
+                "fees": ""
+            }
+        }
+    },
+    "Apartments": {
+        "Charts": {
+            "Average": "",
+            "Selected": "",
+            "Direct": "",
+            "DirectPast": "",
+            "DirectConsumption": "",
+            "PercentageComparison": ""
+        },
+        "TitleNavbar": "",
+        "Consumption": "",
+        "DetailApartment": "",
+        "ApartmentDetails": "",
+        "AssociatedUsers": "",
+        "GraphicConsumption": "",
+        "DistrictComparison": ""
+    },
+    "Gate": {
+        "TitleNavbar": "",
+        "InvitationDetails": "",
+        "InvitationStatus": "",
+        "GuestType": {
+            "guest": "",
+            "taxi": "",
+            "home_service": "",
+            "delivery": ""
+        },
+        "Guests": {
+            "Title": "",
+            "Status": "",
+            "Details": "",
+            "Number": "",
+            "Number_plural": ""
+        },
+        "VisitorStatus": {
+            "Title": "",
+            "create": "",
+            "create_description": "",
+            "request": "",
+            "request_description": "",
+            "wait": "",
+            "wait_description": "",
+            "complete": "",
+            "complete_description": "",
+            "exit": "",
+            "exit_description": ""
+        }
+    },
+    "Users": {
+        "TitleNavbar": "",
+        "Roles": "",
+        "Status": {
+            "approved": "",
+            "hold": "",
+            "block": ""
+        },
+        "Districts": {
+            "TitleNavbar": "",
+            "Title": ""
+        }
+    },
+    "Table": {
+        "Headers": {
+            "title": "",
+            "author": "",
+            "visibility": "",
+            "start": "",
+            "StartDate": "",
+            "activity_date": "",
+            "end": "",
+            "EndDate": "",
+            "status": "",
+            "CreatedAt": "",
+            "PublishedAt": "",
+            "actions": "",
+            "Image": "",
+            "Name": "",
+            "Brand": "",
+            "Space": "",
+            "Status": "",
+            "Actions": "",
+            "Person": "",
+            "When": "",
+            "Deadline": "",
+            "Cover": "",
+            "Address": "",
+            "Price": "",
+            "Cost": "",
+            "User": "",
+            "Email": "",
+            "MemberSince": "",
+            "Code": "",
+            "Size": "",
+            "ResidentsNumber": "",
+            "ResidentsName": "",
+            "OTP": "",
+            "Date": "",
+            "Guests": "",
+            "GuestType": "",
+            "PlaceVisit": ""
+        },
+        "Filter": {
+            "all": "",
+            "waiting": "",
+            "rejected": "",
+            "confirmed": "",
+            "published": "",
+            "draft": "",
+            "history": "",
+            "incoming": "",
+            "signup_requests": "",
+            "approved": "",
+            "blocked": "",
+            "Activities": {
+                "all": "",
+                "waiting": "",
+                "to_pay": "",
+                "confirmed": "",
+                "rejected": "",
+                "history": ""
+            }
+        },
+        "FilterSelectTitle": {
+            "Filter_category": "",
+            "Filter_calendar": ""
+        }
+    },
+    "Date": {
+        "Days": {
+            "sunday": "",
+            "monday": "",
+            "tuesday": "",
+            "wednesday": "",
+            "thursday": "",
+            "friday": "",
+            "saturday": ""
+        },
+        "Months": {
+            "january": "",
+            "february": "",
+            "march": "",
+            "april": "",
+            "may": "",
+            "june": "",
+            "july": "",
+            "august": "",
+            "september": "",
+            "october": "",
+            "november": "",
+            "december": ""
+        }
+    },
+    "Input": {
+        "Label": {
+            "Title": "",
+            "Subtitle": "",
+            "Label": "",
+            "Description": "",
+            "ActivitySpace": "",
+            "Language": "",
+            "Name": "",
+            "Address": "",
+            "CreatedBy": "",
+            "PublishedBy": "",
+            "PublishedAt": "",
+            "Message": "",
+            "NewActivity": "",
+            "NewActivityDescription": "",
+            "NumberPeople": "",
+            "ExternalLink": "",
+            "SendMessage": "",
+            "Brand": "",
+            "Model": "",
+            "SerialNumber": "",
+            "Notes": "",
+            "Status": "",
+            "SelectToolStatus": "",
+            "PlaceName": "",
+            "Email": "",
+            "Phone": "",
+            "Website": "",
+            "OpenAt": "",
+            "CloseAt": "",
+            "MaxOccupancy": "",
+            "Price": "",
+            "Cost": "",
+            "IsPhysicalPlace": "",
+            "Capacity": "",
+            "IsHistoricalActivity": "",
+            "IsSpecialActivity": "",
+            "PlaceBookable": "",
+            "MaxBookingTime": "",
+            "DeliveredByUser": "",
+            "Password": "",
+            "PasswordRepeat": "",
+            "FirstName": "",
+            "MiddleName": "",
+            "LastName": "",
+            "Mobile": "",
+            "TaxCode": "",
+            "VatCode": "",
+            "ChangePassword": "",
+            "ApartmentCode": "",
+            "Internal": "",
+            "Floor": "",
+            "Size": "",
+            "ResidentNumber": "",
+            "ContractCode": "",
+            "OTP": "",
+            "EntraceDate": "",
+            "EntraceHour": "",
+            "GuestType": "",
+            "PlaceVisit": "",
+            "Motivation": ""
+        },
+        "Placeholder": {
+            "ToolName": "",
+            "ToolDescription": "",
+            "ToolNotes": "",
+            "PlaceName": "",
+            "PlaceDescription": "",
+            "SearchPlace": "",
+            "SearchName": "",
+            "SearchUserName": "",
+            "PromotionDescription": "",
+            "PromotionExternalLink": "",
+            "PromotionContent": ""
+        }
+    },
+    "Select": {
+        "Title": {
+            "Day": "",
+            "Repeat": "",
+            "StartsAt": "",
+            "EndsRepetition": "",
+            "EndsAt": "",
+            "District": "",
+            "Visibility": "",
+            "tagSearch": "",
+            "Status": "",
+            "WhereIsIt": "",
+            "Place": "",
+            "SelectTool": "",
+            "SelectPerson": "",
+            "StartDate": "",
+            "EndDate": "",
+            "EndPublication": "",
+            "ExportType": "",
+            "BirthDate": ""
+        },
+        "Values": {
+            "none": "",
+            "noDataAvailable": "",
+            "daily": "",
+            "weekly": "",
+            "monthly": "",
+            "annual": "",
+            "day": "",
+            "month": "",
+            "year": "",
+            "days": "",
+            "weeks": "",
+            "months": "",
+            "all": "",
+            "waiting": "",
+            "rejected": "",
+            "confirmed": "",
+            "public": "",
+            "private": "",
+            "staffOnly": "",
+            "district": "",
+            "good": "",
+            "worn": "",
+            "bad": "",
+            "ToCheck": "",
+            "ToPay": "",
+            "Online": "",
+            "Rejected": ""
+        }
+    },
+    "Image": {
+        "Title": {
+            "CoverImage": ""
+        },
+        "Placeholder": {
+            "DragDropClick": "",
+            "MaxSize": "",
+            "Formats": ""
+        }
+    },
+    "String": {
+        "Error": {
+            "Image": ""
+        },
+        "EntryHour": "",
+        "ExitHour": ""
+    },
+    "Dialog": {
+        "Title": {
+            "Notice": "",
+            "Delete": "",
+            "Cancel": "",
+            "Create": "",
+            "NewObject": "",
+            "CreateObject": "",
+            "SaveObject": "",
+            "PublishObject": "",
+            "ShowObject": "",
+            "EditObject": "",
+            "ModifyObject": "",
+            "DeleteObject": "",
+            "Save": "",
+            "Edit": "",
+            "Debug": "",
+            "Return": "",
+            "GenerateXls": "",
+            "Publish": "",
+            "Draft": "",
+            "Message": "",
+            "UserDetails": "",
+            "SendRequest": "",
+            "ManualConfirm": "",
+            "ResendRequest": "",
+            "ExitRequest": ""
+        },
+        "Message": {
+            "SendingMessage": "",
+            "SuccessSendingMessage": "",
+            "ErrorSendingMessage": "",
+            "NoMessage": "",
+            "ProcessingRequest": "",
+            "ErrorProcessingRequest": "",
+            "GeneratingXls": "",
+            "SuccessGenerateXls": "",
+            "ErrorGenerateXls": "",
+            "Activity": {
+                "SaveRepeatableParentActivity": "",
+                "SaveRepeatableActivity": "",
+                "CancelActivityCreation": "",
+                "CancelActivityEdition": "",
+                "SavingActivity": "",
+                "SuccessSaveActivity": "",
+                "ErrorSaveActivity": "",
+                "DeleteActivity": "",
+                "DeletingActivity": "",
+                "SuccessDeleteActivity": "",
+                "ErrorDeleteActivity": "",
+                "DeleteRepeatableParentActivity": "",
+                "DeleteRepeatableActivity": "",
+                "EditRepeatableParent": "",
+                "EditRepeatableChild": "",
+                "SuccessSendMessage": "",
+                "ErrorSendMessage": ""
+            },
+            "Reservation": {
+                "SuccessReservationReturnTool": ""
+            },
+            "CancelObjectCreation": "",
+            "CancelObjectEdition": "",
+            "CreatingObject": "",
+            "SuccessCreateObject": "",
+            "ErrorCreateObject": "",
+            "SavingObject": "",
+            "SuccessSaveObject": "",
+            "ErrorSaveObject": "",
+            "PublishingObject": "",
+            "SuccessPublishObject": "",
+            "ErrorPublishObject": "",
+            "DeleteObject": "",
+            "DeletingObject": "",
+            "SuccessDeleteObject": "",
+            "ErrorDeleteObject": "",
+            "LoadingUser": "",
+            "ErrorLoadingUser": "",
+            "ResendRequest": "",
+            "SendingRequest": "",
+            "RequestSent": "",
+            "ErrorSendingRequest": "",
+            "ManualConfirm": "",
+            "SuccessManualConfirm": "",
+            "SendingExitRequest": "",
+            "ExitRequestSent": "",
+            "ErrorSendingExitRequest": ""
+        }
+    },
+    "Validations": {
+        "InvalidEmail": "",
+        "NotRolesSelected": "",
+        "NotNull": "",
+        "LangNotNull": "",
+        "DateInvalid": "",
+        "DateStartNotPast": "",
+        "ValidOption": "",
+        "DateEndNotEqualPastStart": "",
+        "TimeStartInferior": "",
+        "TimeInvalid": "",
+        "TimeEndEqualInferiorStart": "",
+        "InvalidURL": "",
+        "NotInteger": "",
+        "NotZero": "",
+        "CustomSpaceNoName": "",
+        "CustomSpaceNoAddress": "",
+        "NoImage": "",
+        "SelectAnOption": "",
+        "HitEnterToComplete": "",
+        "TimeExceedPeriod": "",
+        "Image": {
+            "Format": "",
+            "Size": ""
+        },
+        "PasswordTooShort": "",
+        "PasswordsMustMatch": "",
+        "InvalidPhone": ""
+    },
+    "Messages": {
+        "Title": {
+            "ErrorLoading": ""
+        },
+        "Content": {
+            "Errors": {
+                "General": {
+                    "ErrorLoading": "",
+                    "ErrorMailAuthor": ""
+                },
+                "Promotions": {
+                    "ErrorLoadingPromotionList": ""
+                },
+                "Activities": {
+                    "ErrorLoadingActivitiesList": ""
+                },
+                "Tools": {
+                    "ErrorLoadingTool": "",
+                    "ErrorLoadingToolList": "",
+                    "ErrorToolNotSet": ""
+                },
+                "Reservations": {
+                    "ErrorLoadingReservationList": ""
+                },
+                "User": {
+                    "ErrorLoadingUser": "",
+                    "ErrorLoadingUserList": "",
+                    "ErrorUserNotSet": ""
+                },
+                "News": {
+                    "ErrorLoadingNews": "",
+                    "ErrorLoadingNewsList": "",
+                    "ErrorNewsNotSet": ""
+                },
+                "Apartment": {
+                    "NotAvailableData": "",
+                    "ErrorLoadingApartment": "",
+                    "ErrorLoadingApartmentList": "",
+                    "ErrorApartmentNotSet": ""
+                },
+                "Gate": {
+                    "ErrorLoadingInvitation": ""
+                }
+            },
+            "WaitLoading": "",
+            "SuccessMailAuthor": "",
+            "LoadingAMomentPlease": ""
+        }
+    },
+    "Checkbox": {
+        "Values": {
+            "both": "",
+            "spaceList": "",
+            "reservationSpace": ""
+        }
+    }
+}
